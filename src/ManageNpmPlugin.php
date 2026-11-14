@@ -1,9 +1,24 @@
 <?php declare(strict_types=1);
 
-namespace ManageNpm;
+/***********************************************************************
+ * This file is part of ManageNpm for BASE3 Framework.
+ *
+ * ManageNpm exposes package administration for npm.
+ * It adds npm-oriented controls to Base3Manager.
+ * The existing manager owns navigation and service composition.
+ *
+ * Developed by Daniel Dahme
+ * Licensed under GPL-3.0
+ * https://www.gnu.org/licenses/gpl-3.0.en.html
+ *
+ * https://base3.de
+ ***********************************************************************/
 
-use Base3\Api\IContainer;
-use Base3Manager\Plugin\AbstractPlugin;
+
+namespace Base3\ManageNpm;
+
+use Base3\CoreFoundation\Api\IContainer;
+use Base3\Base3Manager\Plugin\AbstractPlugin;
 
 class ManageNpmPlugin extends AbstractPlugin {
 

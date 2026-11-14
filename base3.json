@@ -1,0 +1,12 @@
+{
+	"manifestVersion": 1,
+	"name": "ManageNpm",
+	"namespace": "Base3\\ManageNpm",
+	"version": "0.0.0",
+	"description": "ManageNpm exposes package administration for npm. It adds npm-oriented controls to Base3Manager. The existing manager owns navigation and service composition.",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"Base3Manager": ">=0.0.0",
+		"CoreFoundation": ">=4.10.0"
+	}
+}
